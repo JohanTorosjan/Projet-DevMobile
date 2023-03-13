@@ -14,6 +14,7 @@
 		91D6B86529BF2EA900E6FF08 /* Projet_DevMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6B86429BF2EA900E6FF08 /* Projet_DevMobileTests.swift */; };
 		91D6B86F29BF2EA900E6FF08 /* Projet_DevMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6B86E29BF2EA900E6FF08 /* Projet_DevMobileUITests.swift */; };
 		91D6B87129BF2EA900E6FF08 /* Projet_DevMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6B87029BF2EA900E6FF08 /* Projet_DevMobileUITestsLaunchTests.swift */; };
+		91D6B88129BF300600E6FF08 /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6B88029BF300600E6FF08 /* GameListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		91D6B86A29BF2EA900E6FF08 /* Projet-DevMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Projet-DevMobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D6B86E29BF2EA900E6FF08 /* Projet_DevMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projet_DevMobileUITests.swift; sourceTree = "<group>"; };
 		91D6B87029BF2EA900E6FF08 /* Projet_DevMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projet_DevMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91D6B88029BF300600E6FF08 /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		91D6B85229BF2EA800E6FF08 /* Projet-DevMobile */ = {
 			isa = PBXGroup;
 			children = (
+				91D6B87D29BF2FC100E6FF08 /* Views */,
 				91D6B85329BF2EA800E6FF08 /* Projet_DevMobileApp.swift */,
 				91D6B85529BF2EA800E6FF08 /* ContentView.swift */,
 				91D6B85729BF2EA800E6FF08 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				91D6B87029BF2EA900E6FF08 /* Projet_DevMobileUITestsLaunchTests.swift */,
 			);
 			path = "Projet-DevMobileUITests";
+			sourceTree = "<group>";
+		};
+		91D6B87D29BF2FC100E6FF08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91D6B88029BF300600E6FF08 /* GameListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				91D6B85629BF2EA800E6FF08 /* ContentView.swift in Sources */,
 				91D6B85429BF2EA800E6FF08 /* Projet_DevMobileApp.swift in Sources */,
+				91D6B88129BF300600E6FF08 /* GameListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
