@@ -23,7 +23,7 @@ struct GameListView: View {
         {
             Text("hello")
         }.onAppear{
-                gameListIntent.loadDatas()
+                gameListIntent.getGames()
             }
         
         

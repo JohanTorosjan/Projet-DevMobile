@@ -18,6 +18,8 @@ class GameListViewModel:ObservableObject{
             switch uiState{
             case .Loading(let games):
                 self.games=games
+                print("self.games:")
+                print(self.games[0].name)
             default:break
             }
         }
